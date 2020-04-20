@@ -191,8 +191,8 @@ int main(int argc, const char *argv[]) {
                         break;
                     }
                     case ClutchCommandOptionClean: {
-                        [[NSFileManager defaultManager] removeItemAtPath:@"/var/tmp/clutch" error:nil];
-                        [[NSFileManager defaultManager] createDirectoryAtPath:@"/var/tmp/clutch"
+                        [[NSFileManager defaultManager] removeItemAtPath:@"/var/tmp/rasco" error:nil];
+                        [[NSFileManager defaultManager] createDirectoryAtPath:@"/var/tmp/rasco"
                                                   withIntermediateDirectories:YES
                                                                    attributes:nil
                                                                         error:nil];

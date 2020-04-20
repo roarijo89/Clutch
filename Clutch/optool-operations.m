@@ -298,7 +298,7 @@ BOOL binaryHasRPATH(NSMutableData *binary, NSString *dylib, uint32_t *lastOffset
     if (lastOffset != NULL)
         *lastOffset = loadOffset;
     if (!foundRPATH) {
-        NSLog(@"didn't find rpath, no injection!");
+        NSLog(@"didn't find path, no injection!");
         return YES;
     }
     return NO;
