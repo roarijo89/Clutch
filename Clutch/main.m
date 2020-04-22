@@ -50,7 +50,7 @@ int main(int argc, const char *argv[]) {
 
     @autoreleasepool {
         if (getuid() != 0) { // Clutch needs to be root user to run
-            KJPrint(@"Clutch needs to be run as the root user, please change user and rerun.");
+            KJPrint(@"rasco needs to be run as the root user, please change user and rerun.");
             return 0;
         }
 
